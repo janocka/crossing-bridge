@@ -23,6 +23,10 @@ font-family: 'Questrial', sans-serif;
   max-width: 40%;
 }
 
+.torchholder{
+
+}
+
 .person {
 /*   */
   flex-basis: 130px;
@@ -67,15 +71,6 @@ footer h1 {
 
 .choice a {
   display: flex;
-}
-
-
-/*.chrono {
-
-  flex-basis: 130px;
-  flex-grow: 0;
-  align-self: flex-end;
-  padding-bottom: 27%;
 }
 
 .chrono img {
