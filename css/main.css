@@ -23,11 +23,8 @@ font-family: 'Questrial', sans-serif;
   max-width: 40%;
 }
 
-.torchholder after {
-  content: block;
-  position: relative;
-  left: 100px;
-  z-index: 2;
+.torchholder{
+
 }
 
 .person {
