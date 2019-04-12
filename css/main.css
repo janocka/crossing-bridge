@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+font-family: 'Questrial', sans-serif;
+}
+
+h2{
+font-family: 'Questrial', sans-serif;
+}
+
 .view {
   min-height: 70vh;
   overflow: hidden;
@@ -6,13 +21,14 @@
 .bank {
   display: flex;
   max-width: 40%;
-  flex-wrap: wrap;
 }
 
 .person {
-  border: 4px solid #000;
+/*   */
   flex-basis: 130px;
   flex-grow: 0;
+  align-self: flex-end;
+  padding-bottom: 27%;
 }
 
 .person img {
@@ -22,10 +38,46 @@
 section {
   display: flex;
   justify-content: space-between;
-  background-color: yellow;
+  background: #282828 url("images/fond.gif") bottom center no-repeat;
+  background-size: cover;
+}
+
+footer {
+  position: relative;
+}
+
+footer h1 {
+  position: absolute;
+  top : -62px;
+  border: 6px solid blue;
+  border-radius: 12px;
+  padding: 4px;
 }
 
 .choices{
   display: flex;
-  background-color: green;
+  background-color: #6f72b5;
+  justify-content: space-evenly;
 }
+
+.choice {
+  border: 1px solid #000;
+  flex-basis: 16%;
+}
+
+.choice a {
+  display: flex;
+}
+
+
+/*.chrono {
+
+  flex-basis: 130px;
+  flex-grow: 0;
+  align-self: flex-end;
+  padding-bottom: 27%;
+}
+
+.chrono img {
+  width: 100%;
+} */
