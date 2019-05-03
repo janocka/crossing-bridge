@@ -46,6 +46,13 @@ section {
   background-size: cover;
 }
 
+section2 {
+  display: flex;
+  justify-content: space-between;
+  background: #282828 url("images/tryagain.gif") bottom center no-repeat;
+  background-size: cover;
+}
+
 footer {
   position: relative;
 }
