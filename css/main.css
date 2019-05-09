@@ -7,6 +7,7 @@ body {
 
 h1{
 font-family: 'Questrial', sans-serif;
+color: white;
 }
 
 h2{
@@ -23,8 +24,9 @@ font-family: 'Questrial', sans-serif;
   max-width: 40%;
 }
 
-.torchholder{
-
+.torchholder :: after{
+display: block;
+position: absolute;
 }
 
 .person {
@@ -37,6 +39,7 @@ font-family: 'Questrial', sans-serif;
 
 .person img {
   width: 100%;
+  align-content: space-between;
 }
 
 section {
@@ -55,14 +58,21 @@ section2 {
 
 tryagain {}
 
+section2 {
+  display: flex;
+  justify-content: space-between;
+  background: #282828 url("images/tryagain.gif") bottom center no-repeat;
+  background-size: cover;
+}
+
 footer {
   position: relative;
 }
 
 footer h1 {
   position: absolute;
-  top : -62px;
-  border: 6px solid blue;
+  top : -70px;
+  border: 6px solid white;
   border-radius: 12px;
   padding: 4px;
 }
