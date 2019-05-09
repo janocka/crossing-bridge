@@ -45,6 +45,15 @@ section {
   background: #282828 url("images/fond.gif") bottom center no-repeat;
   background-size: cover;
 }
+section2 {
+  display: flex;
+  justify-content: space-between;
+  background: #282828 url("images/tryagain.gif") bottom center no-repeat;
+  background-size: cover;
+  }
+
+
+tryagain {}
 
 footer {
   position: relative;
@@ -72,7 +81,3 @@ footer h1 {
 .choice a {
   display: flex;
 }
-
-.chrono img {
-  width: 100%;
-} */
