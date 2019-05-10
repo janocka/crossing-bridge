@@ -48,6 +48,7 @@ section {
   background: #282828 url("images/fond.gif") bottom center no-repeat;
   background-size: cover;
 }
+<<<<<<< HEAD
 
 section2 {
   display: flex;
@@ -55,6 +56,8 @@ section2 {
   background: #282828 url("images/tryagain.gif") bottom center no-repeat;
   background-size: cover;
 }
+=======
+>>>>>>> parent of 94cc232... comi Test
 
 footer {
   position: relative;
